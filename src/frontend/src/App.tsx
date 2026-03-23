@@ -15,6 +15,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
+import WhatsAppButton from "./components/WhatsAppButton";
 import WhyUs from "./components/WhyUs";
 import { InternetIdentityProvider } from "./hooks/useInternetIdentity";
 import AdminPanel from "./pages/AdminPanel";
@@ -34,6 +35,7 @@ function HomePage() {
         <ContactForm />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
